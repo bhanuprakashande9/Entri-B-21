@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridAssignment</title>
+
+  
+<style>
+
+.navbar{
+    height: 100px;
+    width: 99vw;
+/*background-color: brown;*/
+display: flex;
+
+justify-content: space-around;
+align-items: center;
+
+}
+
+.hero{
+
+    height: 40vw;
+    width: 99vw;
+    background-color: brown;
+    background-image: url(https://livepeppy.com/wp-content/uploads/2018/12/photo-1496412705862-e0088f16f791.jpeg);
+  
+margin: auto;
+background-size: cover;
+filter:brightness(80%);
+color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content:first baseline;
+   align-items:center;
+   gap: 1px;
+      
+}
+
+.hero>h1{
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    filter: brightness(100%);
+}
+
+.hero>h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    filter: brightness(100%);
+}
+
+.hero>button{
+    
+   
+}
+
+#on{
+    height: 40px;
+    width:120px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(237,200,0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#vn{
+    height: 40px;
+    width:120px;
+    border-radius: 10px;
+    background-color:transparent;
+    color: white;
+border:2px solid rgb(237,200,0);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+font-weight: 700;
+
+}
+
+.navbar-child{
+    width: 35%;
+    /*background-color: yellow;*/
+    display: flex;
+
+justify-content: space-around;
+align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.navbar>a{
+
+    
+}
+
+
+.navimg{ height: 75px;}
+
+a{text-decoration: none;}
+
+
+.containers3{
+    height: 25vw;
+    width: 98vw;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: auto auto auto;
+align-items: center;
+justify-content: center;
+gap: 30px;
+
+}
+
+.child3{
+
+    height: 300px;;
+    width: 325px;
+    background-color: white;
+    
+    border-radius: 15px;
+    
+}
+
+.text-container{
+
+    height: 25vw;
+    width: 98vw;
+    background-color: beige;
+    text-align: center;
+
+   
+ 
+
+}
+
+.inside-child3{
+    text-wrap:balance;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    
+    
+}
+
+.menu-text{
+margin: auto;
+    height:max-content;
+    width: 95vw ;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+.parentmenu{
+
+    height: 40vw;
+    width: 90vw;
+    
+    margin:auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    background-color:none;
+   
+}
+
+.exploremenu{
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.exploremenu>img{
+max-width: 80%;
+height: auto;
+margin-top: 20px;
+border-radius: 10px;
+align-content: center;
+}
+
+
+</style>   
+
+
+   
+
+</head>
+<body>
+      <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <div class="navbar">
+
+<img class="navimg" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" alt="">
+<div class="navbar-child" >
+<a href="">Why Choose Us</a>
+<a href="">Explore Menu</a>
+<a href="">Delivery&Payment</a>
+<a href="">Follow Us</a>
+
+</div>
+    </div>
+
+    <div class="hero">
+<h1>Get Delicious Food Anytime</h1>
+<h3>Eat Smart & Healthy</h3>
+<div>
+    <button id="on">ViewMenu</button>
+    <button id="vn">OrderNow</button>
+</div>
+    </div>
+
+   <div class="text-container"><br>
+    <h1>Why Choose Us</h1>
+    <p>We use both original recipes and classic versions of famous food items.</p>  
+
+    <div class="containers3">
+    
+
+<div class="child3">
+    <span class="inside-child3"><br><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" alt=""> <br> <h2>Food Service</h2><p>Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p></span> 
+
+</div>
+
+
+<div class="child3">
+    <span class="inside-child3"><br><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" alt=""> <br> <h2>Fresh Food</h2><p>The Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner farms and farm houses so that you always get them tree to plate.</p></span>   
+
+</div>
+<div class="child3">
+    <span class="inside-child3"><br><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" alt=""> <br> <h2>Best Offers</h2><p>Food Coupons & Offers upto 50% OFF and Exclusive Promo Codes on All Online Food Orders.</p></span>    
+
+</div>
+   </div>
+</div>
+<br><br><br><br><br><br><br>
+
+<div  class="menu-text">
+    <h1>Explore Menu</h1>
+
+    <div class="parentmenu">
+    <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+    <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+    <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+    <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+    <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+    <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+    <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+    <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>

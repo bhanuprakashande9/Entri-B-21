@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>.align{width: 110px; display:inline-block; text-align: left;}</style>
+   <style> .Align_Checkbox{width: 20px; display: inline-block;} </style>
+</head>
+<body>
+    
+    <form >
+
+    <div style="line-height: 0.2cm;">
+    <h1>Simple Event Regestration</h1>
+    <h4> Fill out the form to register to our event </h4><br><hr><br><br>
+</div>
+
+    <label for="name" style="font-weight: bold;width: 102px;display: inline-block;">FullName</label> &nbsp;
+    <input type="text" name="name" placeholder="First Name"> <input type="text" name="name" placeholder="Last Name" > <br><br>
+ 
+<!--Title-->
+    <label for="title" style="font-weight: bold;"class="align">Title</label>
+    <input type="text" name="text" id="Title" required>
+     <br><br>
+    
+ <!--Company-->
+    <label for="Company" style="font-weight: bold;"class="align">Company</label>
+    <input type="datetime" name="age">
+    <br><br>
+ <!--Email-->
+    <label for="Email_id" style="font-weight: bold;"class="align" id="">Email_id</label>
+    <input type="email" name="Emailid" id="emailid"required> <br><br>
+ <!--PhoneNumber-->
+    <label for="Phone" style="font-weight: bold;"class="align">Phone number</label>
+    <input type="number" number="number" id="phno" required> <br><br>
+<!--DropDown list-->
+    <label for="country" style="font-weight: bold;" >Choose your country:</label>
+    <select name="Country" >
+      <option value="India">India</option>
+      <option value="USA">USA</option>
+      <option value="Britan">Britan</option>
+      <option value="Japan">Japan</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit"><hr>
+
+
+
+
+ <!--CheckBox-->   
+    <label for="checkbox" style="font-weight: bold;">Are you an existing customer</label><br>
+    <label for="checkbox" class="Align_Checkbox">Yes</label>
+    <input type="radio" name="Are you an existing customer" value="Yes">
+    <label for="checkbox" class="Align_Checkbox">No</label>
+    <input type="radio" name="Are you an existing customer" value="No"><br><br>
+
+    <input type="submit">
+
+    </form>
+ 
+    
+
+</body>
+</html>

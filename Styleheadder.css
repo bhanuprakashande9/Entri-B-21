@@ -1,0 +1,156 @@
+.nav_bar{
+    background-color:oldlace;
+     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 8px,0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+#logo{ 
+    
+    
+height: 35px;
+margin-left: 30px;
+}
+
+#bluebutton{
+    margin-right: 30px;
+    height: 25px;
+    font-family: sans-serif;font-size: 12px;
+    font-weight: 900;
+    background-color:rgb(89,161,201);
+    color: white;
+    padding:8px,24px,8px,24px;
+    border: 1px solid rgb(89,161,201);
+    border-radius: 300px;
+    
+    }
+
+    .Hero_hedding{
+        text-align: center;
+        
+    }
+
+    .hero{
+        
+        height: 500px; width:90vw; background-color:white; 
+       display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items:first baseline;
+
+        margin:35px;
+                    
+        }
+    
+    .hero1{
+    
+        
+        background-color:white;
+        height: 440px;
+        width: 205px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .img1{
+        background-color:#59a1c9;
+        height: 216px;
+        width: 205px;
+    }
+
+    .img2{
+        background-color:#FFd428;
+        height: 216px;
+        width: 205px;
+    }
+
+    .img3{
+        background-color:#00ad8b;
+        height: 216px;
+        width: 205px;
+    }
+
+    .img4{
+        background-color: #FFd428;
+        height: 216px;
+        width: 205px;
+    }
+    .img5{
+        background-color: #59a1c9;
+        height: 216px;
+        width: 205px;
+    }
+
+    .text_bg{
+        border-bottom: 2px;
+        padding: 3px;
+    }
+
+
+    .hero2{
+    
+                 
+       
+        background-color: white;
+        height: 440px;
+        width: 205px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .hero3{
+
+       
+       
+        background-color:white;
+        height: 440px;
+        width: 205px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+   
+
+    .hero4{
+
+      
+        background-color: white;
+        height: 440px;
+        width: 205px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+
+    .hero5{
+
+        
+       
+        background-color: white;
+        height: 440px;
+        width: 205px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    p{
+        font-family:"Inter",sans-serif;
+        font-size: 12px;
+        padding: 10px;
+
+    }
+
+    h3{
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+
+.investorsblock{
+height: 400px; width: 100vw;
+background-color: rgb(234,241,245);
+
+}
+
+   
+    

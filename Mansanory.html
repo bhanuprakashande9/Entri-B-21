@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .parent{
+            height: 500px;
+            width: 500px;
+            background-color: gray;
+            border: 5px solid gray;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            /* column-gap: 5px;
+            row-gap: 5px; */
+            gap: 5px;
+
+        }
+        .children{
+          
+            background-color:black;
+            
+            
+        }
+        .bhanu{
+            background-color: pink;
+            /* grid-column-start: 1;
+  grid-column-end: 4; */
+  grid-row-start: 1;
+  grid-row-end:3;
+  background-image: url(https://tse2.mm.bing.net/th?id=OIP.IZvS6h66OhpUVzY2NeCWNwHaNK&pid=Api&P=0&h=180);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+        }
+/* 
+        .c4{
+            background-color:violet;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        } */
+
+        .ch9{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-image: url(https://as2.ftcdn.net/v2/jpg/01/45/54/47/1000_F_145544711_Rst59FCBqqyxnmZ1B34UcZr1VUbvMIYe.jpg);
+            background-size: cover;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="parent">
+
+   <div class="bhanu">1</div>
+   <div class="children">2</div>
+   <div class="children">3</div>
+   <div class="children c4">4</div>
+   <div class="children">5</div>
+   <div class="children">6</div>
+   <div class="children">7</div>
+   <div class="children">8</div>
+   <div class="children ch9">9</div>
+
+    
+    </div>
+    
+</body>
+</html>

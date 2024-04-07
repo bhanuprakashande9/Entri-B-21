@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="fooddmunchBootstrap.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>FoodMunchBootstrap</title>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+   
+    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png"  alt="">
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#WhyChooseUs">Why Choose Us?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Explore-Menu">Explore Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=".payment-options">Delevery&Payment</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">Follow Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="px-0 pt-0 my-0 text-center border-bottom">
+  <h1 class="display-4 fw-bold">Centered screenshot</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front plugins.</p>
+    <button type="button" class="btn1 btn-lg">ViweMenu</button>
+    <button type="button" class="btn2 btn-lg">OrderNow</button>
+    </div>
+  </div>
+
+
+<div class="text-container" id="WhyChooseUs"><br>
+    <h1>Why Choose Us</h1>
+    <p>We use both original recipes and classic versions of famous food items.</p>  
+
+    <div class="containers3">
+    
+
+<div class="child3">
+    <span class="inside-child3"><br><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" alt=""> <br> <h2>Food Service</h2><p>Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p></span> 
+
+</div>
+
+
+<div class="child3">
+    <span class="inside-child3"><br><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" alt=""> <br> <h2>Fresh Food</h2><p>The Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner farms and farm houses so that you always get them tree to plate.</p></span>   
+
+</div>
+<div class="child3">
+    <span class="inside-child3"><br><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" alt=""> <br> <h2>Best Offers</h2><p>Food Coupons & Offers upto 50% OFF and Exclusive Promo Codes on All Online Food Orders.</p></span>    
+
+</div>
+   </div>
+</div>
+
+
+
+<div  class="menu-text"
+id="Explore-Menu">
+  <h1>Explore Menu</h1>
+
+  <div class="parentmenu">
+  <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+  <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+  <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+  <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+  <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+  <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+  <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+  <div class="exploremenu"><img class="img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" alt=""><span><h3>Staters</h3> <p>ViewAll</p></span></div>
+</div>
+</div>
+<br><br><br><br><br>
+
+
+<div class="container-colour">
+<div class="container">
+  
+  <div class="row">
+    <div class="col-5"> <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/healthy-food-plate-img.png" alt=""></div>
+    <div class="col-7"><h1>Fresh, Healthy, Organic, Delicious Fruits</h1>
+    
+    <p>Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from mother nature.</p>
+
+    <button type="button" class="btn1 btn-lg">ViweMenu</button>
+
+    </div>
+  </div>
+    
+  </div>
+</div>
+
+
+
+<div class="container-colour1">
+  <div class="container" id="changedivcolour">
+    
+    <div class="row">
+    
+      <div class="payment-options id col-8"><h1>Delivery and Payment</h1> <p>Enjoy hassle-free payment with the plenitude of payment options available for you. Get live tracking and locate your food on a live map. It's quite a sight to see your food arrive to your door. Plus, you get a 5% discount on every order every time you pay online.</p>
+
+        <button type="button" class="btn1 btn-lg">ViweMenu</button><br>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" alt="">&nbsp;&nbsp;&nbsp;
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" alt="">&nbsp;&nbsp;&nbsp;
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" alt="">&nbsp;&nbsp;&nbsp;
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" alt="">
+      </div>
+      <div class="offer-img col-4"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" alt=""></div>
+      
+    </div>
+  </div>
+  </div>
+
+
+  
+  
+<div class="container-colour2">
+  <div class="container" id="changedivcolour1">
+    
+    <div class="row">
+    
+      <div class="thankyou col-8"><h1>Thank you for being a valuable customer to us.</h1> <p>We have a surprise gift for you</p>
+
+        <button type="button" class="btn1 btn-lg">ViweMenu</button>`
+      
+      </div>
+      <div class="gift-img col-4"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" alt=""></div>
+    </div>
+  </div>
+</div>
+     <div class="Follow-us"><h1>Follow Us</h1>
+     <div class="container3">
+      <div class="middlecontainer"><img src="https://cdn-icons-png.flaticon.com/128/1946/1946511.png" alt=""></div>
+      <div class="middlecontainer"><img src="https://cdn-icons-png.flaticon.com/128/739/739257.png" alt=""></div>
+      <div class="middlecontainer"><img src="https://cdn-icons-png.flaticon.com/128/15509/15509665.png" alt=""></div>
+    
+      
+   
+    </div>
+  </div>
+
+  <div class="container4">
+    <div class="middlecontainer1"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-logo-light.png" alt=""><h1>orderfood@foodmunch.com</h1> 
+      <p>FoodMunch Hyderbad-KPHB -500085</p></div>
+
+  
+   
+ 
+
+</div>
+
+
+
+  
+
+
+
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+
+
+-----------------------------css---------------------------------------------------
+
+
+
+
+.container-fluid>img{height: 75px; width: 75px;
+    
+margin-left: 10px;}
+
+
+
+
+
+    
+
+
+.collapse{
+    padding-right: 100px;
+    
+}
+
+
+.nav-item{
+    padding-right: 5px;
+    margin-right: 5px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+
+}
+
+
+.text-center{
+  height: 35vw;
+  width: auto;
+  background-size: contain,cover;
+  text-decoration-color: white;
+}
+
+.border-bottom{
+    
+    background-image: url(https://wallpapers.com/images/hd/food-4k-3gsi5u6kjma5zkj0.jpg);
+background-size: cover;
+    color: beige;
+    filter: brightness(80%);
+    font-weight: bold;
+    
+   
+}
+
+
+
+@media (max-width: 800px){
+
+.border-bottom{
+    height: 549px;
+    width: auto;
+background-size: cover;
+
+
+}
+
+}
+
+
+
+.btn1{
+    background-color:rgb(237,200,0) ;
+    color: whitesmoke;
+}
+
+.btn2{
+    background-color: rgba(237,200,0,0.3);
+    
+    border:2px solid rgb(237,200,0);
+    color:whitesmoke;
+   font-weight: bold;
+
+}
+
+.text-container{
+    background-color: beige;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .text-container{
+        text-align: center;
+        margin-left:30px ;
+        margin-right:30px ;
+    }
+}
+
+
+
+.containers3{
+    
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    
+   
+    justify-content: center;
+    
+    padding:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+@media (max-width: 800px){
+    .containers3{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+}
+
+.child3{
+    height:320px;
+    width:320px;
+    justify-content: center;
+   
+     margin: 30px;
+
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 0.5px solid black;
+
+}
+
+.menu-text{
+    margin: auto;
+        height:750px;
+        width: 95vw ;
+
+
+        background-color:white;
+        text-align: center;
+    }
+    
+    
+    
+    .parentmenu{
+    
+        height: 40vw;
+        width: 75vw;
+        
+        margin:auto;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+        background-color:none;
+       
+    }
+
+    @media(max-width:800px){
+        .parentmenu{display:flex;
+        flex-direction: column;
+        }
+    }
+   
+    
+    .exploremenu{
+        border-radius: 10px;
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    .exploremenu>img{
+    max-width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-content: center;
+    }
+    
+    .container-colour{
+width: 97vw;
+height:347px;
+background-color: rgb(249,251,254);
+margin: auto;
+
+    }
+    .container{
+        
+        height: 347px;
+        background-color: rgb(249,251,254);
+        
+       
+    
+
+        
+    }
+
+   .responsive{
+    height: 600px;
+    width: 97vw;
+   }
+
+    .col-5>img{
+        height: 251px;
+        width: 270px;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+
+.col-7>h1{
+    
+   margin-top: 10%;
+}
+
+.payment-options>img {
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.offer-img>img{
+    height: 271px;
+    width: 290px;
+}
+
+#changedivcolour{
+    margin-top: 30px;
+    background-color: white;
+}
+
+.gift-img>img{
+height: 319px;
+width: 270px;
+margin-top: 10%;
+
+}
+
+.thankyou>h1
+{
+
+    margin-top: 15%;
+}
+#changedivcolour1{
+    background-color: rgb(252,235,169);
+}
+
+.container-colour2{
+    margin: auto;
+    width: 97vw;
+    height:25vw ;
+    background-color:rgb(252,235,169) ;
+}
+
+
+.container3{
+
+    width: 97vw;
+    height: 8vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+    background-color:white;
+    margin: auto;
+}
+.Follow-us{
+    width: 97vw;
+    height: 5vw;
+    height: auto;
+    
+    text-align: center;
+    
+    
+    margin: auto;
+    
+}
+.Follow-us>h1{
+    padding-top: 20px;
+}
+
+
+.middlecontainer{
+    height: 35px;
+    width: 35px;
+   background-color: rgba(237,200,0,0.8);
+    border-radius: 50px;
+
+}
+
+.middlecontainer>img{height: 35px;
+    width: 35px;
+align-items: center;
+}
+
+.container4{
+
+    width: 97vw;
+    height: 15vw;
+    background-color:#0d2436;
+    margin: auto;
+    align-content: center;
+}
+
+.middlecontainer1>img{
+    height: 70px;
+    width: 80px;
+   
+}
+
+.middlecontainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: white;
+    align-items: center;
+
+    text-align: center;
+    
+}
+.middlecontainer1>h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+margin-top: 15px;
+    font-size: 25px;
+}
